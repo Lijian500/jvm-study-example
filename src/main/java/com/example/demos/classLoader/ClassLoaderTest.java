@@ -21,9 +21,11 @@ public class ClassLoaderTest {
           ...
           用户自定义加载器
          */
-//        printClassLoader();
-//
-//        printClassLoaderLoadPath();
+
+        // 打印类加载器
+        printClassLoader();
+        // 打印类加载器加载的路径
+        printClassLoaderLoadPath();
     }
 
     private static void printClassLoaderLoadPath() {
